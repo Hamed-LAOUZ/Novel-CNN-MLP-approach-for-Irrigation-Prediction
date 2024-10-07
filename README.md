@@ -21,12 +21,6 @@ To run the project, you will need the following Python libraries:
 - `Pandas`
 - `Matplotlib`
 
-Install the required libraries using:
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Usage
 
 ### Data Preparation:
@@ -52,7 +46,7 @@ The model outputs daily irrigation water predictions along with evaluation metri
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md). You are free to use, modify, and distribute the code for **non-commercial** purposes. If you use this code in your research, please cite this repository. -Will be licensed soon--
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code for **non-commercial** purposes. If you use this code in your research, please cite this repository. -Will be licensed soon--
 
 ## Disclaimer
 
