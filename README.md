@@ -1,4 +1,3 @@
-
 # Hybrid CNN-MLP for Predicting Daily Irrigation Water Amount
 
 ## Overview
@@ -6,6 +5,7 @@
 This repository contains the implementation of a hybrid **CNN-MLP model** designed to predict the daily irrigation water amount required for greenhouse-grown plants. This work leverages climate and environmental data collected from a greenhouse to optimize water usage while maintaining crop quality. The model utilizes **CNN for feature extraction** from minute-level climate data and **MLP for predicting** daily irrigation needs.
 
 ### Features:
+
 - Dimensionality reduction through Convolutional Neural Networks (CNNs)
 - Predictive modeling using Multi-Layer Perceptron (MLP)
 - Preprocessing of greenhouse climate data
@@ -30,26 +30,20 @@ pip install -r requirements.txt
 ## Usage
 
 ### Data Preparation:
+
 Prepare your data by organizing it into two datasets:
+
 - Minute-level climate data for feature extraction (used by CNN).
 - Daily irrigation data used for training the MLP.
 
 Make sure to structure your data similar to the example provided in the `data/` folder.
 
-### Training the Model:
+### Viewing the Models Details:
+
 Run the following command to train the model:
 
 ```bash
-python train_model.py
-```
-
-The model will automatically save the trained weights and generate prediction results on the test set.
-
-### Testing the Model:
-To evaluate the model on unseen data, run:
-
-```bash
-python test_model.py
+python Hybrid_CNN_LSTM.ipynb
 ```
 
 ## Results
@@ -58,7 +52,7 @@ The model outputs daily irrigation water predictions along with evaluation metri
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md). You are free to use, modify, and distribute the code for **non-commercial** purposes. If you use this code in your research, please cite this repository.
+This project is licensed under the [MIT License](LICENSE.md). You are free to use, modify, and distribute the code for **non-commercial** purposes. If you use this code in your research, please cite this repository. -Will be licensed soon--
 
 ## Disclaimer
 
@@ -66,8 +60,8 @@ This repository is provided for **research and educational purposes**. For any c
 
 ## Contributing
 
-If you would like to contribute to this project, please submit a pull request. All contributions are welcome, but please adhere to the guidelines provided in `CONTRIBUTING.md`.
+If you would like to contribute to this project, please submit a pull request.
 
 ## Contact
 
-For questions or collaboration inquiries, please contact [Your Name] at [your.email@example.com].
+For questions or collaboration inquiries, please contact Hamed Laouz at laouz.hamed@univ-biskra.dz.
