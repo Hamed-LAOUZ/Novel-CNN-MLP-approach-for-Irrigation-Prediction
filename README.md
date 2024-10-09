@@ -46,7 +46,7 @@ The model outputs daily irrigation water predictions along with evaluation metri
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code for **non-commercial** purposes. If you use this code in your research, please cite this repository. -Will be licensed soon--
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code for **non-commercial** purposes. If you use this code in your research, please cite this repository.
 
 ## Disclaimer
 
@@ -58,4 +58,4 @@ If you would like to contribute to this project, please submit a pull request.
 
 ## Contact
 
-For questions or collaboration inquiries, please contact Hamed Laouz at laouz.hamed@univ-biskra.dz.
+For questions or collaboration inquiries, please contact Mr. Hamed Laouz at laouz.hamed@univ-biskra.dz.
